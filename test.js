@@ -8,6 +8,15 @@ $(document).ready(function () {
 
         $(".container .course-main").removeClass("hide").hide()
         $(".container .course-main."+pane).fadeIn()
+
+        $("  .container .right .exam-main .course-main.two .course").css({
+                background:"#1560bd"
+        })
+
+        $("  .container .right .exam-main .course-main.three .course").css({
+            background:"#00b7eb"
+       })
+        
         
     });
 
