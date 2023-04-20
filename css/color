@@ -1,0 +1,30 @@
+
+    /* background-color: #eb5569; 
+      h1- color : #5c6bc0
+      h1-span : #e57373
+      border-color : rgb(245, 138, 151 ,0.2);
+          outline-color: #c5c7d6
+    */
+
+     /* background-color: #ffdb9b;
+     circle: color: #ce8500;/msg
+      #ffa502;
+      closed btn ,background: ffd080
+      */
+
+      /* for new button animation doing
+       body:  background-color: #f0f0f0;
+
+       button -background: background-color: #4caf50;
+       loading:   background-color: #07762c;
+
+
+       color check at 25 % = = "#43a047"
+
+       counter >= 25 && counter < 50) = "#388e3c"
+
+      (counter >= 50 && counter < 75) = color = "#2e7d32"
+                        
+        (counter > 75)  color = "256729"
+          
+      */

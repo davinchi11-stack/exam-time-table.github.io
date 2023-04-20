@@ -1,0 +1,400 @@
+
+.container{
+    position: relative;
+    top: 8vh;
+    /* overflow: hidden; */
+   background-color: rgba(255, 255, 255, 0.15);
+    padding: 50px;
+    left: 5vh;
+    max-width: 87%;
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+    
+}
+
+body{
+  background-color: blueviolet;
+  max-width: 100%;
+  
+}
+
+
+
+.container .department-name{
+    text-transform: capitalize;
+    line-height: 1.3rem;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container .department-name h3{
+    font-weight: 700;
+}
+
+.container .upcoming-events .upcoming{
+    line-height: 28px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.container .upcoming-events .upcoming h1{
+    font-size: 25px;
+    text-transform: none;
+    font-weight: 600;
+}
+
+.container .upcoming-events .upcoming h1{
+    font-size: 25px;
+    text-transform: none;
+    font-weight: 600;
+}
+
+.container .upcoming-events  .check{
+    /* display: none; */
+    /* position: absolute; */
+     display: none; 
+}
+
+.container .upcoming-events .upcoming p{
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.container .upcoming-events .box{
+    background-color: #fdfdfd;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    /* position: relative; */
+}
+
+.container .upcoming-events .box p{
+    font-size: 13px;
+    padding-bottom: 5px;
+    color: #a8a8a8;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.container .upcoming-events .box p::before{
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    background-color: blueviolet;
+    border-radius: 50px;
+    left: 78px;     
+}
+.container .upcoming-events .exam-box-2 p::before{
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    background-color: #52cffd;
+    border-radius: 50px;
+    left: 78px; 
+       
+}
+.container .upcoming-events .exam-box-3 p::before{
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    background-color: #fdc95f;
+    border-radius: 50px;
+    left: 78px; 
+    
+}
+
+.container .upcoming-events .box h2{
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.container .upcoming-events .box h4{
+    font-size: 13px;
+    color: #848181;
+}
+
+
+.container .anouncement{
+      position: relative;
+      top: 40px;
+      /* background-color: #7c66f3; */
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-transform: capitalize;
+      border-radius:8px;
+      margin-bottom: 10px;
+}
+
+.container .anouncement button{
+      margin-bottom: 10px;
+      padding: 10px 30px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-transform: capitalize;
+      font-size: 15px;
+      font-weight: 500;
+      border-radius: 8px ;
+      border: none;
+      outline: 0;
+     cursor: pointer;
+     box-sizing: border-box;
+}
+.container .anouncement button:hover{
+   transform: scale(1.03);
+}
+
+.container .anouncement ul {
+  margin-top: 10px;
+  display: none;
+ 
+}
+
+.container .anouncement ul li {
+    text-align: center;
+    position: relative;
+    right: 20px;
+  }
+  
+  .container .anouncement ul li a {
+     font-size: 15px;
+     line-height: 22px;
+     color: black;
+     text-decoration: none;
+     
+  }
+
+  .container .right {
+     position: relative;
+     left: 50px;
+     /* padding: 0px 20px;
+     background-color: #ffffff;
+     width: 600px;
+     height: 480px;
+     border-radius: 8px; */ 
+  }
+
+  .container .right .header .head{
+     margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+      
+ }
+  
+ .container .right .header .head h1{
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:18px ;  
+    font-weight: 600; 
+    
+}
+
+.container .right .exam-main{
+  background-color: #fff;
+  padding: 10px 10px;
+  border-radius: 8px;
+  min-height: 300px;
+  max-width: 600px;
+  box-sizing: border-box;
+    
+}
+
+.container .right .exam-main button{
+    background-color: blueviolet;
+    padding: 5px 20px;
+    border: none;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    text-transform: capitalize;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .container .right .exam-main button:hover{
+    transform: scale(1.02);
+    transition: 250ms ease-in-out;
+  }
+
+
+  .container .right .exam-main .exam-day{
+    margin-bottom: 10px;
+  }
+
+  .container .right .exam-main .date{
+    margin: 10px;
+  }
+
+  .container .right .exam-main .date{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-family: 400;
+     font-size: 13px;
+     text-transform: capitalize;
+     position: absolute;
+  }
+  
+
+  .container .right .exam-main .course-main{
+      position: absolute;
+      background-color: #fff;
+
+      
+ }
+
+ .container .right .exam-main .course-main .course span{
+    display: inline-flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.container .right .exam-main .course-main .course {
+    background-color: navy;
+    margin: 10px 0px;
+    padding: 10px;
+    max-width: 400px;
+   color: #fff;
+   line-height: 20px;
+   border-radius: 8px;
+   
+}
+
+.container .right .exam-main .course-main .course p {
+   margin-left: 10px;
+   text-transform: capitalize;
+   font-size: 14px;
+   font-weight: 500;
+   
+}
+.container .right .exam-main .course-main .course h3 {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    font-size: 11px; 
+ }
+
+ .container .right .exam-main .course-main .course h2 {
+    text-transform: capitalize;
+   font-size: 16px;
+   font-weight: 500;
+  }
+
+
+.container .right .hide{
+    display: none;
+}
+.container .right .show{
+    display: block;
+}
+
+
+@media screen and (max-width:600px)
+{
+    body{
+        height: 1000px;
+    }
+
+    .container{
+        max-width: 240px;
+        height: 1100px;
+        margin: auto;
+        position: relative;
+        left: -1px;
+    }
+
+    .container .upcoming-events .box h2{
+        font-size: 10px;
+        
+    }
+
+    .container .upcoming-events .box h4{
+        font-size: 10px;
+    }
+    
+    .container .upcoming-events .box p{
+        font-size: 11px;
+        
+    }
+    .container .anouncement button{
+        position: relative;
+        bottom: 19px;
+        font-size:8px;
+        
+        
+       
+  }
+
+  .container .right {
+    position: relative;
+    left: -10px;
+    
+ }
+
+ .container .right .header .head{
+    margin-top: 70px;
+     
+     
+}
+ 
+.container .right .header .head h1{
+   margin-bottom: 20px;
+   font-size:15px ;  
+}
+
+.container .right .exam-main button{
+   margin: 5px 0px;
+   font-size: 10px;
+
+  }
+
+
+ 
+
+.container .right .exam-main .course-main .course p {
+    font-size: 10px; 
+    
+ }
+
+ .container .right .exam-main .course-main .course h3 {
+
+     font-size: 8px; 
+  }
+ 
+  .container .right .exam-main .course-main .course h2 {
+     text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 500;
+   }
+
+   .container .right .exam-main .course-main{
+    max-width: auto;
+    
+}
+
+
+.container .right .exam-main{
+    position: relative;
+    top: 15px;
+    left: -25px;
+    height: 300px;
+    width: 280px
+      
+  }
+
+  .container .right .exam-main .course-main .course {
+    background-color: navy;
+    margin: 10px 0px;
+    padding: 8px;
+    max-width: 700px;
+   color: #fff;
+   line-height: 20px;
+   border-radius: 8px;
+   
+}
+    
+    
+}
