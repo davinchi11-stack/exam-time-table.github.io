@@ -18,7 +18,7 @@
 }
 
 body{
-  background-color: blueviolet;
+  background-color: #1560bd;
   max-width: 100%;
   
 }
@@ -220,7 +220,7 @@ body{
 }
 
 .container .right .exam-main button{
-    background-color: blueviolet;
+    background-color:  #1560bd;
     padding: 5px 20px;
     border: none;
     color: #fff;
@@ -269,7 +269,7 @@ body{
    
 }
 .container .right .exam-main .course-main .course {
-    background-color: navy;
+    background-color: #a1045a;
     margin: 10px 0px;
     padding: 10px;
     max-width: 400px;
@@ -399,7 +399,6 @@ body{
   }
 
   .container .right .exam-main .course-main .course {
-    background-color: navy;
     margin: 10px 0px;
     padding: 8px;
     max-width: 700px;
